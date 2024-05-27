@@ -15,7 +15,7 @@ import streamlit as st
 from sklearn.ensemble import RandomForestClassifier
 
 
-model = load('/home/olalekan/Documents/Reddit_comment/my_model1.pkl')
+model = load('my_model1.pkl')
 # In your new environment, load the saved vectorizer
 loaded_vectorizer = load('tfidf_vectorizer.joblib')
 
