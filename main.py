@@ -6,7 +6,7 @@ import string
 import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
 from spacy.lang.en import English
-
+from nltk.decorators import decorator, memoize
 from nltk.corpus import stopwords
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
